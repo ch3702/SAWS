@@ -9,7 +9,7 @@ Huang, Chengpiao and Wang, Kaizheng. (2023). A stability principle for learning 
 The file `algorithms.py` contain three functions that implement the algorithms in the paper:
 - `SAWS_offline` implements Algorithm 1, the offline version of SAWS.
 - `SAWS_online` implements Algorithm 2, the offline version of SAWS.
-- `MA` implements Algorithm 3, the fixed window benchmark.
+- `MA` implements Algorithm 3, the fixed-window benchmark.
 
 ## Problem Classes
 The file `environments.py` contains the following problem classes. Problem classes designed for synthetic data contain functions that evaluate the expected loss of a decision, while those designed for real data do not. Here $\boldsymbol{z}$ or $(\boldsymbol{x},y)$ denotes the sample, $\boldsymbol{\theta}$ denotes the decision, and $\ell$ denotes the loss.
