@@ -12,7 +12,7 @@ The file `algorithms.py` contain three functions that implement the algorithms i
 - `MA` implements Algorithm 3, the fixed window benchmark.
 
 ## Problem Classes
-The file `environments.py` contains the following problem classes. Problem classes designed for synthetic data contain functions that evaluate the expected loss of a decision, while environments designed for real data do not. Here $\boldsymbol{z}$ or $(\boldsymbol{x},y)$ denotes the sample, $\boldsymbol{\theta}$ denotes the decision, and $\ell$ denotes the loss.
+The file `environments.py` contains the following problem classes. Problem classes designed for synthetic data contain functions that evaluate the expected loss of a decision, while those designed for real data do not. Here $\boldsymbol{z}$ or $(\boldsymbol{x},y)$ denotes the sample, $\boldsymbol{\theta}$ denotes the decision, and $\ell$ denotes the loss.
 
 - `Gauss_env` and `real_Gauss_env` implement Gaussian mean estimation for synthetic and real data, respectively: 
 $$\ell(\boldsymbol{\theta},\boldsymbol{z}) = \frac{1}{2} \\| \boldsymbol{\theta}-\boldsymbol{z} \\|_2^2.$$
@@ -29,7 +29,7 @@ $$\ell(\boldsymbol{\theta},(\boldsymbol{x},y)) = r(y - \boldsymbol{x}^\top\bolds
 
 ## Experiments in the Paper
 
- The file `synthetic_instances.py` contains the code for implementing the two problem instances in the synthetic data experiment.The folder `synthetic`, `real_electricity_prediction`, and `real_nurse_staffing` contain the code and results for the numerical experiments in Section 7 of the paper.
+ The file `synthetic_instances.py` contains the code for implementing the two problem instances in the synthetic data experiment.The folders `synthetic`, `real_electricity_prediction`, and `real_nurse_staffing` contain the code and results for the numerical experiments in Section 7 of the paper.
 
  ## Citation
 ```
