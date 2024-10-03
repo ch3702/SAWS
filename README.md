@@ -29,7 +29,7 @@ $$\ell(\boldsymbol{\theta},(\boldsymbol{x},y)) = r(y - \boldsymbol{x}^\top\bolds
 
 ## Experiments in the Paper
 
- The file `synthetic_instances.py` contains the code for implementing the two problem instances in the synthetic data experiment.The folders `synthetic`, `real_electricity_prediction`, and `real_nurse_staffing` contain the code and results for the numerical experiments in Section 7 of the paper.
+ The file `synthetic_instances.py` contains the code for implementing the two problem instances in the synthetic data experiment. The folders `synthetic`, `real_electricity_prediction`, and `real_nurse_staffing` contain the code and results for the numerical experiments in Section 7 of the paper.
 
  ## Citation
 ```
