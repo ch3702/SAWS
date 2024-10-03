@@ -6,7 +6,7 @@ Huang, Chengpiao and Wang, Kaizheng. (2023). A stability principle for learning 
 
 ## Algorithms
 
-The file `algorithms.py` contain three functions that implement the algorithms in the paper:
+The file `algorithms.py` contains three functions that implement the algorithms in the paper:
 - `SAWS_offline` implements Algorithm 1, the offline version of SAWS.
 - `SAWS_online` implements Algorithm 2, the offline version of SAWS.
 - `MA` implements Algorithm 3, the fixed-window benchmark.
