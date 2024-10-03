@@ -1,6 +1,8 @@
 # SAWS: Stability-based Adaptive Window Selection
 
-This folder contains the code for implementing the algorithm Stability-based Adaptive Window Selection (SAWS) and reproducing the experiments in the paper "A Stability Principle for Learning under Non-Stationarity".
+This repository contains the code for implementing the algorithms and reproducing the experiments in the following paper:
+
+Huang, Chengpiao and Wang, Kaizheng. (2023). A stability principle for learning under non-stationarity. (https://arxiv.org/abs/2310.18304).
 
 ## Algorithms
 
@@ -28,3 +30,13 @@ $$\ell(\boldsymbol{\theta},(\boldsymbol{x},y)) = r(y - \boldsymbol{x}^\top\bolds
 ## Experiments in the Paper
 
  The file `synthetic_instances.py` contains the code for implementing the two problem instances in the synthetic data experiment.The folder `synthetic`, `real_electricity_prediction`, and `real_nurse_staffing` contain the code and results for the numerical experiments in Section 7 of the paper.
+
+ ## Citation
+```
+@article{HWa23,
+  title={A stability principle for learning under non-stationarity},
+  author={Huang, Chengpiao and Wang, Kaizheng},
+  journal={arXiv preprint arXiv:2310.18304},
+  year={2023}
+}
+```
