@@ -2,7 +2,7 @@
 
 This repository contains the code for implementing the algorithms and reproducing the experiments in the following paper:
 
-Huang, Chengpiao and Wang, Kaizheng. (2025). A stability principle for learning under non-stationarity. Operations Research 73(6):3044-3064. [arXiv](https://arxiv.org/abs/2310.18304) [DOI](https://doi.org/10.1287/opre.2024.0766)
+Huang, Chengpiao and Wang, Kaizheng. (2025). A stability principle for learning under non-stationarity. Operations Research 73(6):3044-3064. [[arXiv](https://arxiv.org/abs/2310.18304)] [[DOI](https://doi.org/10.1287/opre.2024.0766)]
 
 ## Algorithms
 
